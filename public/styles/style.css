@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.homepage {
+  background-image: url('/images/spotify-background.jpeg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.searchform {
+  padding: 50px;
+  margin-left: 25%;
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25%;
+  background-color: rgba(255, 255, 255, 0.65);
+}
+.artists {
+  background-color: white;
+}
+input {
+  font-size: 16px;
+  padding: 5px 150px 5px 15px;
+}
+button {
+  background-color: red;
+  color: white;
+  margin-top: 15px;
+  margin-left: 110px;
+  font-size: 16px;
+  padding: 5px 25px 5px 25px;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+}

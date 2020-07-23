@@ -1,0 +1,14 @@
+<h1>Search Albums</h1>
+
+
+<ul>
+  {{#each data}}
+    <li>
+         {{#if images}}
+          <img src="{{images.1.url}}" alt="{{name}}">
+          {{/if}} 
+          <strong>{{name}}</strong>
+          <a href="/list/{{id}}">View tracks</a>
+    </li>
+  {{/each}}
+</ul>
